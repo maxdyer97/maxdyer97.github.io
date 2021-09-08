@@ -1,4 +1,4 @@
-.box {
+.box body {
   box-sizing: border-box;
   margin: 0;
   border: 0;
@@ -6,8 +6,6 @@
 
 header {
   background-image: url('../images/collab.jpg');
-  margin: 0;
-  border: 0;
 
 }
 
@@ -149,23 +147,6 @@ p {
 
 }
 
-footer {
-  background-image: url('../images/collab.jpg');
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Source Code Pro', monospace;
-}
-
-.footerflexbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footerflexbox a:visited {
-  color: white;
-}
-
 a {
   text-decoration: 0;
 }
@@ -200,7 +181,7 @@ button:hover {
 
 }
 
-.contacticons input {
+.contacticons img {
   height: 75px;
   width: 75px;
   padding: 10px;
@@ -221,3 +202,20 @@ button:hover {
   width: 200px;
 
 }
+
+.footerflexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerflexbox a:visited {
+  color: white;
+}
+
+footer {
+    background-image: url('../images/collab.jpg');
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    height: 30px;
