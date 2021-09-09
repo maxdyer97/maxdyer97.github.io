@@ -1,20 +1,21 @@
-.box body {
-  box-sizing: border-box;
-  margin: 0;
-  border: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
 }
 
 header {
   background-image: url('../images/collab.jpg');
-
 }
 
 .titlecss {
+  font-family: 'Source Code Pro', monospace;
   font-weight: bold;
-  color: white;
+  color: black;
+  text-align: center;
 }
 
-h1 {
+h1, p {
   color: black;
   font-size: 36px;
   font-family: 'Source Code Pro', monospace;
@@ -26,7 +27,7 @@ h1 {
 h2 {
   font-family: 'Source Code Pro', monospace;
   color: black;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   padding: 10px;
 
@@ -35,7 +36,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 nav {
@@ -46,14 +46,13 @@ nav {
   display: flex;
   margin: 2em;
   justify-content: center;
-
 }
 
 .dropbtn {
      padding: 36px;
      font-size: 14px;
      border: none;
-   }
+}
 
 .dropdown {
      position: relative;
@@ -67,11 +66,10 @@ nav {
   height: 5em;
 }
 
-.hoveroverme {
+span {
   font-family: 'Source Code Pro', monospace;
-  padding-left: 150px;
-  position: relative;
-  bottom: 750px;
+  padding-left: 50px;
+  position: left;
 }
 
 .dropdown-content {
@@ -80,7 +78,6 @@ nav {
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: grey;
 }
 
 .dropdown-content a {
@@ -91,15 +88,21 @@ nav {
 }
 
 .dropdown-content a:hover {
-     background-color: white;
-  }
+     background-color: black;
+     color: white;
+}
 
 .dropdown:hover .dropdown-content {
      display: block;
-   }
+}
 
 a {
   text-decoration: 0;
+}
+
+#aboutme {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 24px;
 }
 
 body {
@@ -107,6 +110,7 @@ body {
   background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);
   background: linear-gradient(to right, #ffcc33, #ffb347);
 }
+
 .projectborder {
   background-color: white;
 }
@@ -136,15 +140,16 @@ p {
   text-align;
   color: black;
 }
+
 .skills {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   border-width: 6vw;
-  padding: 4vw;
+  padding: 6vw;
   text-align: right;
   font-family: 'Source Code Pro', monospace;
-
 }
 
 a {
@@ -159,6 +164,7 @@ button {
   font-family: 'Source Code Pro', monospace;
   font-size: 32px;
   text-transform: uppercase;
+  border-color: black;
 }
 
 button:hover {
@@ -167,18 +173,17 @@ button:hover {
   font-size: 32px;
   border-style: solid;
   border-width: 2px;
-
 }
 
 #lightbulb {
-  height: 50vh;
-  width: 50vw;
+  height: 40vh;
+  width: 40vw;
 }
+
 .contacticons {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .contacticons img {
@@ -188,18 +193,18 @@ button:hover {
 }
 
 #wireframe1 {
-  height: 200px;
-  width: 200px;
+  height: 14vh;
+  width: 8vw;
 }
 
 #wireframe2 {
-  height: 200px;
-  width: 200px;
+  height: 14vh;
+  width: 8vw;
 }
 
 #wireframe3 {
-  height: 200px;
-  width: 200px;
+  height: 14vh;
+  width: 8vw;
 
 }
 
@@ -218,4 +223,5 @@ footer {
     text-align: center;
     font-weight: bold;
     font-family: 'Source Code Pro', monospace;
+    color: black;
     height: 30px;
